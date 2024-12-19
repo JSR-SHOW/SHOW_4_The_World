@@ -4,13 +4,13 @@
 
 ##################### ORIGINAL DATASET #################################
 
-### To be apply to an original datasel in .csv format with 4 variables: 
+### To be applied to an original datasel in .csv format with 4 variables: 
 ### "FID", "species_name", "taxonomy", "num_reads"
 ### 'FID' = The series of unique reads come out from sequencing, and for each of them:
-### 'species_name' = each species name attributed by QIIME2 to the FID with the highest confidence level (superior to 98% in any case is recommended)
+### 'species_name' = each species name attributed to the FID with the highest confidence level (superior to 98% in any case is recommended)
 ###  NOTA: Unique reads will be repeated in the first column as many times as there are species names attributed with the same highest level of confidence)
-### 'taxonomy' : Full taxonomic description from phylum to species level
-### 'num_read' : number of ocurrences of each unique read
+### 'taxonomy' : Full taxonomic description from phylum to corresponding taxon level
+### 'num_reads' : number of ocurrences of each unique FID
 
 #### User Input: Thresholds for Cluster Importance and Taxon Abundance ####
 
